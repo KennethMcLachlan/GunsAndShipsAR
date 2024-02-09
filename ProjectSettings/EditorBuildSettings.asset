@@ -6,17 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/0 - MainMenu.unity
-    guid: 7bd646e365d00564aa4fe8a310f368e2
+    path: Assets/Scenes/AlphaScenes/0 - OpeningMenu.unity
+    guid: f7245113de815244ca75290cc5e8ce37
   - enabled: 1
-    path: Assets/Scenes/1 - AR Object Placer.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/AlphaScenes/1 - Guns.unity
+    guid: 16a9cb081291e914a95b8b159b104567
   - enabled: 1
-    path: Assets/Scenes/2 - Object Examiner.unity
-    guid: 3c22ebe3fb8efe1428a0eba46d7d92e6
-  - enabled: 1
-    path: Assets/Scenes/3 - Magic Box.unity
-    guid: b2a64a62830ab5648887688f46ac79cf
+    path: Assets/Scenes/AlphaScenes/2 - Ships.unity
+    guid: 8a49894dad71b824b98fee0aec16d287
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 78b225f42ec45a74fa2ffaab898b5780,
       type: 2}
