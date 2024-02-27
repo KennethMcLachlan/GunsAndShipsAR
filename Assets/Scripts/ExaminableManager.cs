@@ -15,6 +15,7 @@ public class ExaminableManager : MonoBehaviour
     private bool _isExamining;
 
     [SerializeField] private float _rotationSpeed = 1f;
+    [SerializeField] private GameObject _particleEffect;
 
     private void Update()
     {
@@ -32,6 +33,7 @@ public class ExaminableManager : MonoBehaviour
     }
     public void PerformExamine(Examinable examinable)
     {
+        _particleEffect.SetActive(true);
         _currentExaminedObject = examinable;
 
         //Cache the examinable transform data so we can reset it
@@ -52,6 +54,8 @@ public class ExaminableManager : MonoBehaviour
 
     public void PerformUnexamine()
     {
+        _particleEffect.SetActive(false);
+
         _currentExaminedObject.transform.position = _cachedPosition;
         _currentExaminedObject.transform.rotation = _cachedRotation;
         _currentExaminedObject.transform.localScale = _cachedScale;
