@@ -708,9 +708,9 @@ RectTransform:
   - {fileID: 2063311984}
   - {fileID: 489353402}
   - {fileID: 905275591}
-  - {fileID: 503183056}
   - {fileID: 1171736957}
   - {fileID: 1724415595}
+  - {fileID: 503183056}
   m_Father: {fileID: 1426456546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3014,8 +3014,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 235108550}
-  - {fileID: 411390264}
   - {fileID: 928371387}
+  - {fileID: 411390264}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4111,6 +4111,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1996443518}
+        m_TargetAssemblyTypeName: DisableVisualPlane, Assembly-CSharp
+        m_MethodName: DisablePlaneVisuals
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5939,6 +5951,52 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
+--- !u!1 &1996443517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996443519}
+  - component: {fileID: 1996443518}
+  m_Layer: 0
+  m_Name: PlaneVisualDisabler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1996443518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996443517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e2cca4e39f76b42830c807ea2c5d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ARDefaultPlane: {fileID: 8179162914909295572, guid: 38f4c886a7d7f5642a63b7060e431f97,
+    type: 3}
+--- !u!4 &1996443519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996443517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 47.656452, y: 22.354567, z: 3.7511039}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2023180357
 GameObject:
   m_ObjectHideFlags: 0
@@ -6805,3 +6863,4 @@ SceneRoots:
   - {fileID: 565583216}
   - {fileID: 414015783}
   - {fileID: 2033889799}
+  - {fileID: 1996443519}

@@ -7,19 +7,47 @@ using UnityEngine.XR.ARSubsystems;
 
 public class DisableVisualPlane : MonoBehaviour
 {
-    public MeshRenderer mesh;
+    [SerializeField] private GameObject _ARDefaultPlane;
 
-    private void Start()
+    private void ChangeMaterialAlpha()
     {
-        mesh = GetComponent<MeshRenderer>();
-    }
-    public void DisablePlaneVisibility()
-    {
-        mesh.Equals(null);
+        if (_ARDefaultPlane != null)
+        {
+            Renderer renderer = _ARDefaultPlane.GetComponent<Renderer>();
+
+            if (renderer != null )
+            {
+                Material material = renderer.material;
+
+                if (material.HasProperty("_Color"))
+                {
+                    Color color = material.color;
+                    color.a = 0f;
+                    material.color = color;
+                }
+            }
+        }
     }
 
-    public void EnablePlaneVisibility()
+    private void ChangeLineRenderer()
     {
-        mesh.Equals(true);
+        if (_ARDefaultPlane != null)
+        {
+            LineRenderer lineRenderer = _ARDefaultPlane.GetComponent<LineRenderer>();
+
+            if (lineRenderer != null)
+            {
+                Color color = lineRenderer.material.color;
+                color.a = 0f;
+                lineRenderer.material.color = color;
+            }
+        }
     }
+
+    public void DisablePlaneVisuals()
+    {
+        ChangeMaterialAlpha();
+        ChangeLineRenderer();
+    }
+    
 }
