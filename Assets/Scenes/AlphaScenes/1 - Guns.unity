@@ -3797,7 +3797,7 @@ MonoBehaviour:
         m_MethodName: set_placementPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 4930247878084626788, guid: 5adcafd99842a4f4596a02100799e30f,
+          m_ObjectArgument: {fileID: 4930247878084626788, guid: 46dcfefd0e93cf94c9d281c05b992ff8,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
