@@ -483,7 +483,7 @@ MonoBehaviour:
         m_MethodName: set_placementPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2826709033438190788, guid: 2df9cc38d5c07cb4eb2992db53f2f79d,
+          m_ObjectArgument: {fileID: 8644925809639739635, guid: 465c7ecaded659d4898ff089c9ea8502,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -491,10 +491,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2826709033438190788, guid: 2df9cc38d5c07cb4eb2992db53f2f79d,
+      - m_Target: {fileID: 8644925809639739635, guid: 465c7ecaded659d4898ff089c9ea8502,
           type: 3}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+        m_MethodName: 
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -970,7 +970,7 @@ MonoBehaviour:
         m_MethodName: set_placementPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 293719983059446869, guid: 7628790e6e2c5bd4a905039faccf0d1a,
+          m_ObjectArgument: {fileID: 8644925809639739635, guid: 6fb29a204c6e54f44affe14b6d687841,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -978,7 +978,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 293719983059446869, guid: 7628790e6e2c5bd4a905039faccf0d1a,
+      - m_Target: {fileID: 8644925809639739635, guid: 6fb29a204c6e54f44affe14b6d687841,
           type: 3}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -2405,6 +2405,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8179162914909295572, guid: 38f4c886a7d7f5642a63b7060e431f97,
+          type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1171736959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3269,7 +3282,7 @@ MonoBehaviour:
         m_MethodName: set_placementPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8644925809639739635, guid: a1463ce4a5a2e92478ef41010a3ae044,
+          m_ObjectArgument: {fileID: 8644925809639739635, guid: 57ec940a65470ee499bb4f37d6b85df8,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -3277,7 +3290,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8644925809639739635, guid: a1463ce4a5a2e92478ef41010a3ae044,
+      - m_Target: {fileID: 8644925809639739635, guid: 57ec940a65470ee499bb4f37d6b85df8,
           type: 3}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -3898,9 +3911,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ships:
-  - {fileID: 2826709033438190788, guid: 2df9cc38d5c07cb4eb2992db53f2f79d, type: 3}
-  - {fileID: 8644925809639739635, guid: a1463ce4a5a2e92478ef41010a3ae044, type: 3}
-  - {fileID: 293719983059446869, guid: 7628790e6e2c5bd4a905039faccf0d1a, type: 3}
+  - {fileID: 8644925809639739635, guid: 465c7ecaded659d4898ff089c9ea8502, type: 3}
+  - {fileID: 8644925809639739635, guid: 57ec940a65470ee499bb4f37d6b85df8, type: 3}
+  - {fileID: 8644925809639739635, guid: 6fb29a204c6e54f44affe14b6d687841, type: 3}
   _colorID: 0
 --- !u!4 &1766650533
 Transform:
@@ -4123,6 +4136,19 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: DisableVisualPlane, Assembly-CSharp
         m_MethodName: DisablePlaneVisuals
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8179162914909295572, guid: 38f4c886a7d7f5642a63b7060e431f97,
+          type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

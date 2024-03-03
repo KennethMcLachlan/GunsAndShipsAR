@@ -14,4 +14,9 @@ public class SceneSwitcher : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Attributes()
+    {
+        Application.OpenURL("https://docs.google.com/document/d/1o-yNhTSGo8zpFpb5QmQ2lD_Fyd4_ZWP0OV4t-kHnHQo/edit?usp=sharing");
+    }
 }
